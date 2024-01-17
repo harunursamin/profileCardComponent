@@ -68,4 +68,9 @@ main{
     align-items: center;
     justify-content: space-around;
     border-top: 1px solid var(--Dark-gray);
+    text-align: center;
+}
+.card .stat .text2-sm{
+    margin-top: .4rem;
+    font-size: .7rem;
 }
