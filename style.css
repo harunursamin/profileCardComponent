@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+:root {
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+    --Dark-gray: hsl(0, 0%, 59%);
+}
+
+main{
+    min-height: 100vh;
+    background: url('./images/bg-pattern-top.svg') no-repeat , url('./images/bg-pattern-bottom.svg') no-repeat , var(--Dark-cyan);
+    background-position: right 52vw bottom 35vh , left 48vw top 52vh ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+* .text{
+    font-size: 18px;
+    color: var(--Very-dark-desaturated-blue);
+    font-weight: 700;
+}
+* .text2{
+    color: var(--Dark-gray);
+}
+.card .pic span{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.card{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 1rem;
+    background: white;
+    box-shadow: 0 0 2rem 0.5rem hsla(229, 23%, 23%, 0.366);
+}
+.card .pic{
+    background: url(./images/bg-pattern-card.svg) 0 -8.5rem no-repeat;
+    background-size: cover;
+    height: 15rem;
+    border-radius: 1rem 1rem 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 1rem;
+}
+.card .pic img{
+    border: 0.5rem solid white;
+    border-radius: 50%;
+}
+.card .pic div{
+    margin-top: 1rem;
+    text-align: center;
+}
+.card .stat{
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

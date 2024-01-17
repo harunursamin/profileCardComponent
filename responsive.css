@@ -1,0 +1,8 @@
+/* @media (max-width: 576px) {
+    main{
+        background: url('./images/bg-pattern-top.svg') , url('./images/bg-pattern-bottom.svg') , var(--Dark-cyan);
+        background-position: -55vw -40vh , 55vw 50vh ;
+        background-repeat: no-repeat , no-repeat;
+        background-size: contain, contain;
+    }
+} */
